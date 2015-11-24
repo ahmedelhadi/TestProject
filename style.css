@@ -1,0 +1,242 @@
+/*
+
+	Theme Name: Muktasabat Theme 
+
+	Theme URI: https://www.xtremewebtech.com
+
+	Description: A nice, clean and feature rich theme for Real Estate Websites.
+
+	Author: Qazi
+
+	Author URI: https://www.facebook.com/qaziabubaker
+
+	Version: 1.6
+
+	Text Domain: framework
+
+    Domain Path: /
+
+	License: GNU General Public License version 3.0
+
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+	Tags: custom-background, arabic-theme, translation-ready, light, one-column, two-columns, three-columns, four-columns, custom-menu, theme-options
+
+
+
+	----------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+		font-family: 'CoconNextArabicLight';
+		src: url('font/coconnextarabiclight.eot');
+		src: url('font/coconnextarabiclight.eot?#iefix') format('embedded-opentype'),
+				 url('font/coconnextarabiclight.woff') format('woff'),
+				 url('font/coconnextarabiclight.ttf') format('truetype'),
+				 url('font/coconnextarabiclight.svg#coconnextarabiclight') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+.propertypid {
+	text-transform: uppercase;
+	background: none;
+}
+
+h5.price span{
+
+	/*display: block !important;
+
+	width: 87px;
+
+	height: 84px;
+
+	word-wrap: break-word;
+
+	line-height: 34px;
+
+	padding: 0px !important;
+
+	margin: 20px;
+
+	padding-top: 20px !important;
+
+	margin-right:18px !important*/
+
+}
+
+.min_height  {
+	min-height: 640px;
+}
+.prop_id{
+ background: #5C5C5C !important;
+}
+
+h5.price span{
+
+	/*display: block !important;
+
+	width: 87px;
+
+	height: 84px;
+
+	word-wrap: break-word;
+
+	line-height: 34px;
+
+	padding: 0px !important;
+
+	margin: 20px;
+
+	padding-top: 20px !important;
+
+	margin-right:18px !important*/
+
+}
+
+.min_height  {
+	min-height: 640px;
+}
+
+.span6 h1.titlezz ,.span6 h5.price , .propertypid{
+	background: #6f0800;
+	padding: 9.5px 9.5px;
+	color: #fff;
+  text-align: center;
+  border-radius: 8px;	
+  }
+
+
+
+/* Tabs container */
+.r-tabs {
+	position: relative;
+
+	background-color: #00c5ad;
+
+	border-top: 1px solid #00c5ad;
+	border-right: 1px solid #00c5ad;
+	border-left: 1px solid #00c5ad;
+	border-bottom: 4px solid #00c5ad;
+	border-radius: 4px;
+
+}
+
+/* Tab element */
+.r-tabs .r-tabs-nav .r-tabs-tab {
+	position: relative;
+	background-color: #00c5ad;
+}
+
+/* Tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+	display: inline-block;
+	padding: 10px 12px;
+
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* Disabled tab */
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+	opacity: 0.5;
+}
+
+/* Active state tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	color: #00c5ad;
+	text-shadow: none;
+
+	background-color: white;
+
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Tab panel */
+.r-tabs .r-tabs-panel {
+	background-color: white;
+
+	border-bottom: 4px solid white;
+
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+
+}
+
+/* Accordion anchor */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+
+	background-color: #00c5ad;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Active accordion anchor */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #fff;
+	color: #00c5ad;
+	text-shadow: none;
+}
+
+/* Disabled accordion button */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+	opacity: 0.5;
+}
+
+/* Buttons */
+button {
+	display:inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	line-height: 100%;
+
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	vertical-align: middle;
+	font-weight: bold;
+	
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #00c5ad;
+	box-shadow: 0px 3px 0px 0px #00ab94;
+	
+	cursor: pointer;
+}
+
+/* Info bar */
+.info {
+	display:inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	width: 300px;
+	line-height: 100%;
+
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 14px;
+	color: #00c5ad;
+	border: 2px solid #00ab94;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+
+	cursor: pointer;
+} 
+
